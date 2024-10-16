@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
+					}
+				],
+				"name": "WantsToCount",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "emitCountLog",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chainlink-automation/CountEmitLog.sol": "CountEmitLog"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chainlink-automation/CountEmitLog.sol": {
+			"keccak256": "0x16259be3c90f9e92cf53d1193e88c3db887eca8497449bb2c81cb7ac325558e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a0473b11fcd7cd11f30b5f238da5e63bfaa028011683a39051373072d97cca5",
+				"dweb:/ipfs/QmWwfTPdXbAFN7dDDBEmuzijbRWBUyMdZbi58YaeCdnpvr"
+			]
+		}
+	},
+	"version": 1
+}

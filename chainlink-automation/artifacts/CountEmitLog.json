@@ -1,0 +1,105 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060988061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80633ebca8e114602d575b600080fd5b60336035565b005b60405133907fe3cba3b68882650dc76730e77105080229f9f61f5c33b10e9aa239ff26d01d9490600090a256fea2646970667358221220fdc1df60a0e4e766535f8d92595acbfd7b6cc86700aeb13f6650dc6b4b9c3a9964736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x98 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x3EBCA8E1 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x40 MLOAD CALLER SWAP1 PUSH32 0xE3CBA3B68882650DC76730E77105080229F9F61F5C33B10E9AA239FF26D01D94 SWAP1 PUSH1 0x0 SWAP1 LOG2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 REVERT 0xC1 0xDF PUSH1 0xA0 0xE4 0xE7 PUSH7 0x535F8D92595ACB REVERT PUSH28 0x6CC86700AEB13F6650DC6B4B9C3A9964736F6C634300081300330000 ",
+			"sourceMap": "57:181:0:-:0;;;137:16;;;;;;;;;;57:181;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@emitCountLog_18": {
+					"entryPoint": 53,
+					"id": 18,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b506004361060285760003560e01c80633ebca8e114602d575b600080fd5b60336035565b005b60405133907fe3cba3b68882650dc76730e77105080229f9f61f5c33b10e9aa239ff26d01d9490600090a256fea2646970667358221220fdc1df60a0e4e766535f8d92595acbfd7b6cc86700aeb13f6650dc6b4b9c3a9964736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x3EBCA8E1 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x40 MLOAD CALLER SWAP1 PUSH32 0xE3CBA3B68882650DC76730E77105080229F9F61F5C33B10E9AA239FF26D01D94 SWAP1 PUSH1 0x0 SWAP1 LOG2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 REVERT 0xC1 0xDF PUSH1 0xA0 0xE4 0xE7 PUSH7 0x535F8D92595ACB REVERT PUSH28 0x6CC86700AEB13F6650DC6B4B9C3A9964736F6C634300081300330000 ",
+			"sourceMap": "57:181:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;159:77;;;:::i;:::-;;;205:24;;218:10;;205:24;;;;;159:77::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "30400",
+				"executionCost": "81",
+				"totalCost": "30481"
+			},
+			"external": {
+				"emitCountLog()": "1270"
+			}
+		},
+		"methodIdentifiers": {
+			"emitCountLog()": "3ebca8e1"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"anonymous": false,
+			"inputs": [
+				{
+					"indexed": true,
+					"internalType": "address",
+					"name": "msgSender",
+					"type": "address"
+				}
+			],
+			"name": "WantsToCount",
+			"type": "event"
+		},
+		{
+			"inputs": [],
+			"name": "emitCountLog",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}
